@@ -30,4 +30,6 @@ shift_transport_button = 99
 shift_channel_select_left_button = 44
 shift_channel_select_right_button = 45
 shift_fader_mode_write_button = 96
-
+bank_channel_select_right_button = 47
+bank_channel_select_left_button = 46
+fader_touch = 104

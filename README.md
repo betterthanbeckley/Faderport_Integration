@@ -9,7 +9,19 @@ The purpose of this program is to integrate my Presonus Faderport Classic into F
 
                                             *** Versions ***
 
-    - Current Version (01/26/2024) - V 0.y.z
+    - 01/16/2024 - V 0.y.z
+        - ADDS
+            1. Track mute now toggles mute on selected track
+            2. Track solo now toggles solo on selected track
+            3. Track record arm button now toggles record arm
+            4. Rotary wheel now controls panning on selected track
+            5. Created condition to ignore fader aftertouch note message
+            6. Added functionality for fader read mode function
+                - Fader responds to selected track's fader value on dirty
+                - trying to figure out how to turn read mode off on init because if read mode is active when init the response is backwards
+                - considering getting rid of my previous function that calls the fader volume to the faderport when bank select buttons are used. Seems like the read mode will just be more optimized and user friendly.
+
+    - (01/19/2024) - V 0.y.z
         - Using Semantic Versioning, API is not yet stable.
         - Functionalities - 
             1. Start // Stop transport buttons are functional
